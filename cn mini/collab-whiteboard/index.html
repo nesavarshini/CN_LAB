@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Whiteboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h2>Whiteboard</h2>
+  <div class="toolbar">
+    <button id="penBtn">Pen</button>
+    <button id="eraserBtn">Eraser</button>
+    <label>Size <input type="range" id="size" min="2" max="40" value="6"></label>
+    <label>Color <input type="color" id="color" value="#000000"></label>
+    <button id="clearBtn">Clear All</button>
+    <span id="status">● connecting…</span>
+  </div>
+  <canvas id="board"></canvas>
+  <script src="app.js"></script>
+</body>
+</html>
